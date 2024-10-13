@@ -15,3 +15,6 @@
     // Add any other dev dependencies here
   }
 }
+git add package.json
+git commit -m "Fix JSON syntax in package.json"
+git push origin main  # or git push origin your-branch-name
