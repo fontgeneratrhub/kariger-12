@@ -3,5 +3,12 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  // Note: 'root' is usually not required unless you want to change the default build behavior.
+  root: 'public', // Define the root directory as public
+  build: {
+    rollupOptions: {
+      input: {
+        main: '/src/main.jsx', // Specify the input file explicitly
+      },
+    },
+  },
 });
