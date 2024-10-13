@@ -12,6 +12,6 @@
     "@vitejs/plugin-react": "^1.0.0"
   },
   "devDependencies": {
-    // Include any other dev dependencies you might need
+    // Add any other dev dependencies here
   }
 }
