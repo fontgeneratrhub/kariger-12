@@ -4,6 +4,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist'
-  }
+    rollupOptions: {
+      input: '/src/main.jsx', // Ensure this path is correct
+    },
+  },
 });
