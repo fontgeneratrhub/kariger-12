@@ -1,0 +1,17 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build",  // Add this line if it's missing
+    "start": "vite"         // Optional: for running the development server
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^1.0.0"
+  },
+  "devDependencies": {
+    // Include any other dev dependencies you might need
+  }
+}
