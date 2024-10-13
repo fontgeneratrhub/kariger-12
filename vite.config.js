@@ -3,9 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      input: '/src/main.jsx', // Ensure this path is correct
-    },
-  },
+  // Note: 'root' is usually not required unless you want to change the default build behavior.
 });
