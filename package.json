@@ -2,19 +2,18 @@
   "name": "Kariger.Com",
   "version": "1.0.0",
   "scripts": {
-    "build": "vite build",
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build"  // New script added
   },
   "dependencies": {
-    "react": "^17.0.2",
+    "react": "^17.0.2",      // New dependency added
     "react-dom": "^17.0.2",
-    "vite": "^4.0.0",
-    "@vitejs/plugin-react": "^1.0.0"
+    "vite": "^4.0.0"
   },
   "devDependencies": {
-    // Add any other dev dependencies here
+    "@vitejs/plugin-react": "^1.0.0"
   }
 }
 git add package.json
-git commit -m "Fix JSON syntax in package.json"
-git push origin main  # or git push origin your-branch-name
+git commit -m "Add build script and react dependency"
+git push origin main  # or your branch name
